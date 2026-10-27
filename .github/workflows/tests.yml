@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: [ "main" ]
 
-
+jobs:
   chrome:
 
     runs-on: ubuntu-latest
@@ -52,7 +52,7 @@ on:
         name: Test report
         path: logs
 
-jobs:
+
   firefox:
 
     runs-on: ubuntu-latest
