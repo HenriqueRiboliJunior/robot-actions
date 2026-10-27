@@ -36,4 +36,4 @@ jobs:
        pip install -r requirements.txt
 
     - name: Broser Init 
-      run: rbbrowser init    
+      run: rfbrowser init    
